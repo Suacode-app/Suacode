@@ -10,7 +10,7 @@ void setup() //runs once
   fullScreen(); //sets full screen
   circleX = width/2; //declare variable to hold x position of ball
   circleY = height/2; //initialize variable to sets its intial value
-  diameter = 20; 
+  diameter = 60; 
   radius = diameter/2;
  
 }
