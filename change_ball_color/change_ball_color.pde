@@ -1,4 +1,4 @@
-int diameter = 20; 
+int diameter = 30; 
 
 void setup() //runs once
 {
