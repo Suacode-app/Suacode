@@ -9,8 +9,7 @@ void setup()
 
     // Create wanderers at the center
     for (int i = 0; i < numOfWanderers; i++){
-        color c = color(random(255),random(255),random(255));
-        wanderers[i] = new Wanderer(width/2, height/2,diameter,c);
+        wanderers[i] = new Wanderer(width/2, height/2,diameter);
         //wanderers[i] = new Wanderer(random(width), random(height),diameter,c);
     }
 }
