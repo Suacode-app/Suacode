@@ -9,7 +9,7 @@ Course notes
 [2.0 Variables](https://drive.google.com/open?id=1unJWDGheh0vIjFXSvWHdjAl1T-C13PWvyDHL8CHKkAM)  
 [3.0 Conditionals](https://drive.google.com/open?id=1ZP7aoDq8TE9FNxepJw4ZSuDXOI4exUnPJH1qok_iv1s)  
 [4.0 Functions](https://drive.google.com/open?id=1Oz3eQzm4tKTj0FtIMTWFoRTckcUBn4h7shqCvf3CX2A)  
-[5.0 Classes and Objects](https://drive.google.com/open?id=1zUskf8ALY37QBPFdKxW13r7P1a4tDA-wbuPWhf5qX8w)
+[5.0 Classes and Objects](https://drive.google.com/open?id=1zUskf8ALY37QBPFdKxW13r7P1a4tDA-wbuPWhf5qX8w)  
 [6.0 Loops & Arrays](https://drive.google.com/open?id=1bap7mffotjOWuVCfNIFqKK4Voxc283A88ppjH-y9HeQ)  
   
 Assignments  
