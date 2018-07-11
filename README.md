@@ -1,16 +1,16 @@
 # Suacode
 Mobile programming course materials  
   
-Course outline: https://drive.google.com/open?id=1odhEW4VrEUFmu_naQjywrJdXlLw5DucnLl1ctPliUXY  
+[Course outline](https://drive.google.com/open?id=1odhEW4VrEUFmu_naQjywrJdXlLw5DucnLl1ctPliUXY)  
   
 Course notes  
-0.0 Introduction: https://drive.google.com/open?id=1pNDFJKISbgGy8imINbJTdd6enb8YT4uAVUH120NikUs  
-1.0 Basic Concepts in Processing: https://drive.google.com/open?id=1Ah2RlKPqW2Y6EIAthzgYRWgRNHaRgn8lYD1s6Cf1JEY  
-2.0 Variables: https://drive.google.com/open?id=1unJWDGheh0vIjFXSvWHdjAl1T-C13PWvyDHL8CHKkAM  
-3.0 Conditionals: https://drive.google.com/open?id=1ZP7aoDq8TE9FNxepJw4ZSuDXOI4exUnPJH1qok_iv1s  
-4.0 Functions: https://drive.google.com/open?id=1Oz3eQzm4tKTj0FtIMTWFoRTckcUBn4h7shqCvf3CX2A  
-5.0 Classes and Objects: https://drive.google.com/open?id=1zUskf8ALY37QBPFdKxW13r7P1a4tDA-wbuPWhf5qX8w  
-6.0 Loops & Arrays: https://drive.google.com/open?id=1bap7mffotjOWuVCfNIFqKK4Voxc283A88ppjH-y9HeQ  
+[0.0 Introduction](https://drive.google.com/open?id=1pNDFJKISbgGy8imINbJTdd6enb8YT4uAVUH120NikUs)  
+[1.0 Basic Concepts in Processing](https://drive.google.com/open?id=1Ah2RlKPqW2Y6EIAthzgYRWgRNHaRgn8lYD1s6Cf1JEY)  
+[2.0 Variables](https://drive.google.com/open?id=1unJWDGheh0vIjFXSvWHdjAl1T-C13PWvyDHL8CHKkAM)  
+[3.0 Conditionals](https://drive.google.com/open?id=1ZP7aoDq8TE9FNxepJw4ZSuDXOI4exUnPJH1qok_iv1s)  
+[4.0 Functions](https://drive.google.com/open?id=1Oz3eQzm4tKTj0FtIMTWFoRTckcUBn4h7shqCvf3CX2A)  
+[5.0 Classes and Objects](https://drive.google.com/open?id=1zUskf8ALY37QBPFdKxW13r7P1a4tDA-wbuPWhf5qX8w)
+[6.0 Loops & Arrays](https://drive.google.com/open?id=1bap7mffotjOWuVCfNIFqKK4Voxc283A88ppjH-y9HeQ)  
   
 Assignments  
 Assignment 1-Make Pong Interface: https://drive.google.com/open?id=1uNwWfBI9-JTlcmh4OZ8W9s7xPc9EuoupEIx6inne9iQ  
