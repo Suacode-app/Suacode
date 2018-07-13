@@ -2,7 +2,7 @@
 
 ## Lesson 1
 [Course outline](https://drive.google.com/open?id=1odhEW4VrEUFmu_naQjywrJdXlLw5DucnLl1ctPliUXY)  
-[0.0 Introduction](https://docs.google.com/document/d/1Wzc8rTbV6U3ElGx5gd_THZ48fQiBkvs7NX4RMo00yec/edit?usp=sharing)  
+[0.0 Introduction](https://docs.google.com/document/d/1pNDFJKISbgGy8imINbJTdd6enb8YT4uAVUH120NikUs/edit?usp=sharing)  
 [1.0 Basic Concepts in Processing](https://drive.google.com/open?id=1Ah2RlKPqW2Y6EIAthzgYRWgRNHaRgn8lYD1s6Cf1JEY)     
 [Assignment 1 - Make Pong Interface](https://drive.google.com/open?id=1uNwWfBI9-JTlcmh4OZ8W9s7xPc9EuoupEIx6inne9iQ)
 
