@@ -1,8 +1,9 @@
 # Suacode - Smartphone-Based Coding Course  
 
-## Lesson 1
 [Course outline](https://drive.google.com/open?id=1odhEW4VrEUFmu_naQjywrJdXlLw5DucnLl1ctPliUXY)  
 [0.0 Introduction](https://drive.google.com/open?id=1aCXiozFF8if6GMYiCiKmB6drrp1KF2XRn1DGOBtdqiY)  
+
+## Lesson 1
 [1.0 Basic Concepts in Processing](https://drive.google.com/open?id=1Ah2RlKPqW2Y6EIAthzgYRWgRNHaRgn8lYD1s6Cf1JEY)     
 [Assignment 1 - Make Pong Interface](https://drive.google.com/open?id=1uNwWfBI9-JTlcmh4OZ8W9s7xPc9EuoupEIx6inne9iQ)
 
