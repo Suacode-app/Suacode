@@ -1,24 +1,32 @@
-int noOfEllipses = 5;
-int[] ellipses = new int[noOfEllipses]; 
+//maxX = ***, maxY = ***
+
+int screenHeight = ***; //set to your maxY
+
+int noOfPositions = 5;
+float [] xPositions = new float[noOfPositions]; 
 
 void setup()
 {
-    fullScreen();
-    background(255);
+  size(***, ***); //sets the width and height of the program
 
-    ellipses[0] = 1;
-    ellipses[1] = 2;
-    ellipses[2] = 3;   
-    ellipses[3] = 4;   
-    ellipses[4] = 5;
-    noFill();
+  background(255);
+
+  float circleY = screenHeight/2;
+  float diameter = 100;
+  
+  xPositions[0] = 100; 
+  xPositions[1] = 200;
+  xPositions[2] = 300;   
+  xPositions[3] = 400;   
+  xPositions[4] = 500;
+  noFill();
+
+  ellipse (xPositions[0], circleY, diameter, diameter);
+  ellipse (xPositions[1], circleY, diameter, diameter);
+  ellipse (xPositions[2], circleY, diameter, diameter);
+  ellipse (xPositions[3], circleY, diameter, diameter);
+  ellipse (xPositions[4], circleY, diameter, diameter);
 }
 
-void draw()
-{
-    ellipse(width/2,height/2,height/ellipses[0],height/ellipses[0]);
-    ellipse(width/2,height/2,height/ellipses[1],height/ellipses[1]);
-    ellipse(width/2,height/2,height/ellipses[2],height/ellipses[2]);
-    ellipse(width/2,height/2,height/ellipses[3],height/ellipses[3]);
-    ellipse(width/2,height/2,height/ellipses[4],height/ellipses[4]);  
+void draw() {
 }

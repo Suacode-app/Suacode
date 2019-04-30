@@ -1,11 +1,24 @@
+//maxX = ***, maxY = ***
+
+int screenWidth = ***; //set to your maxX
+int screenHeight = ***; //set to your maxY
+
 void setup()
 {
-    fullScreen(); //sets full screen
-    int diameter = height/50; //initialization
-    noFill(); //remove fill color
+  size(***, ***); //sets the width and height of the program
 
-    while (diameter < height) {
-        ellipse (width/2, height/2, diameter, diameter);
-        diameter = diameter + height/150;
-    }
+  noFill(); //makes shapes drawn below have no color
+
+  float diameter = 100;
+
+  float circleX = screenWidth/2;
+  float circleY = screenHeight/2;
+
+  while (diameter < screenHeight) {
+    ellipse (circleX, circleY, diameter, diameter);
+    diameter = diameter + 100; //increment diameter by 100
+  }
+}
+
+void draw() {
 }

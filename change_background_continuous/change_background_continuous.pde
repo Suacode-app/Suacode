@@ -1,12 +1,19 @@
+//maxX = ***, maxY = ***
+
+
 void setup(){
-    fullScreen();
-    background(0); //set background color
+    size(***, ***); //sets the width and height of the program
 }
 
 void draw(){
-    if (mousePressed){ //check if mouse has been pressed
+
+  if (mousePressed){ //check if mouse has been pressed
+
     background(255); //set background color to white
-    }else{
+
+  }else{
+
     background(0); //set background color to black
+
   }
 }

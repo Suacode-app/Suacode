@@ -1,29 +1,42 @@
-void setup(){
+//maxX = ***, maxY = ***
 
-    fullScreen(); //sets full screen
-    noFill(); //remove fill color
+int screenWidth = ***; //set to your maxX
+int screenHeight = ***; //set to your maxY
 
-    int diameter = height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+void setup()
+{
+  size(***, ***); //sets the width and height of the program
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  noFill(); //makes shapes drawn below have no color
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  float diameter = 100;
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  float circleX = screenWidth/2;
+  float circleY = screenHeight/2;
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  ellipse (circleX, circleY, diameter, diameter);
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
 
-    diameter = diameter + height/50;
-    ellipse (width/2, height/2, diameter, diameter);
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
+
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
+
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
+
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
+
+  diameter = diameter + 100; //increment diameter by 100
+  ellipse (circleX, circleY, diameter, diameter);
+}
+
+void draw() {
 }
