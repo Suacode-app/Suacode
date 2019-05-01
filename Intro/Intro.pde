@@ -2,10 +2,11 @@
 
 void setup() //runs once
 {
-    size(***, ***); //sets the width and height of the program
- }
+  fullScreen(); //Sets the program to run in full screen mode
+  
+}
 
 void draw() //runs continuously until the program is stopped
 {
-
+  
 }

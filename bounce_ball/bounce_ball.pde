@@ -16,7 +16,8 @@ int radius = 40; //since half the width or the height of the ball is the radius
 
 void setup() //runs once
 {
-    size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
+  
 }
 
 void draw() //runs forever
@@ -25,14 +26,14 @@ void draw() //runs forever
 
   fill(255); //set color of ellipse to white
 
-  ellipse(ballX,ballY,ballWidth,ballHeight); //draw ellipse
-  
+  ellipse(ballX, ballY, ballWidth, ballHeight); //draw ellipse
+
   //Move ball
   ballX = ballX+xSpeed;
   ballY = ballY+ySpeed;
-  
+
   //Check if ball hits left or right walls
-  if ((ballX-radius < 0) || (ballX+radius) > screenWidth){
+  if ((ballX-radius < 0) || (ballX+radius) > screenWidth) {
     xSpeed = xSpeed * -1;  //Reverse direction
   }
 }

@@ -2,21 +2,22 @@
 
 void setup() //runs once
 {
-    size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
+  
 }
 
 void draw() //runs continuously until the program is stopped
 {
-    background(200);  //sets the background grey
+  background(200);  //sets the background grey
 
-    rect(***, ***, ***, ***); //draws a rectangle
-
-
-    ellipse(***, ***, ***, ***); //draws an ellipse
+  rect(***, ***, ***, ***); //draws a rectangle
 
 
-    textSize(20); //set text size to 20
+  ellipse(***, ***, ***, ***); //draws an ellipse
 
 
-    text("This is my first program", ***, ***); //writes text on screen
+  textSize(20); //set text size to 20
+
+
+  text("This is my first program", ***, ***); //writes text on screen
 }

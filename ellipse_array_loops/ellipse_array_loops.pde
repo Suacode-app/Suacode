@@ -7,7 +7,7 @@ float [] xPositions = new float[noOfPositions];
 
 void setup()
 {
-  size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
 
   background(255);
 

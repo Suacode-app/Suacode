@@ -19,36 +19,35 @@ boolean gameOn = false; //new variable to start ball's movement
 
 void setup() //runs once
 {
-    size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
+  
 }
 
 void draw() //runs forever
 {
   background(0);
   fill(255);
-  ellipse(ballX,ballY,ballWidth,ballHeight); 
-  
+  ellipse(ballX, ballY, ballWidth, ballHeight); 
+
   //Check if mouse is pressed, set gameOn to true
-  if (mousePressed){
+  if (mousePressed) {
     gameOn = true;
   }
-  
+
   //Move ball
-  if (gameOn){
+  if (gameOn) {
     ballX = ballX+xSpeed;
     ballY = ballY+ySpeed;
   }
-  
+
   //Check if ball hits left or right walls
-  if ((ballX-radius < 0) || (ballX+radius) > screenWidth){
+  if ((ballX-radius < 0) || (ballX+radius) > screenWidth) {
 
     xSpeed = xSpeed * -1;  //Reverse direction
-
-}
+  }
   //Check if ball hits top or bottom walls
-  if ((ballY-radius < 0) || (ballY+radius) > screenHeight){
+  if ((ballY-radius < 0) || (ballY+radius) > screenHeight) {
 
     ySpeed = ySpeed * -1;  //Reverse direction
-
   }
 }

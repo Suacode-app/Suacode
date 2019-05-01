@@ -8,14 +8,14 @@ Wanderer[] wanderers = new Wanderer[numOfWanderers];
 
 void setup()
 {
-  size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
   background(0);
   int diameter = 20;
   float wandererX = screenWidth/2;
   float wandererY = screenHeight/2;
 
   // Create wanderers at the center
-  for (int i = 0; i < numOfWanderers; i++){
+  for (int i = 0; i < numOfWanderers; i++) {
     wanderers[i] = new Wanderer(wandererX, wandererY, diameter);
   }
 }
@@ -23,7 +23,7 @@ void setup()
 void draw()
 { 
   //Draw and display the i-th wanderer
-  for (int i = 0; i < numOfWanderers; i++){
+  for (int i = 0; i < numOfWanderers; i++) {
     wanderers[i].display();
     wanderers[i].move();
   }
@@ -35,7 +35,7 @@ class Wanderer {
   float x;
   float y;
   float d; 
-  
+
   float redColor; 
   float greenColor;
   float blueColor;

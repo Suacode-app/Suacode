@@ -7,7 +7,7 @@ Wanderer wanderer1, wanderer2;
 
 void setup()
 {
-  size(***, ***); //sets the width and height of the program
+  fullScreen(); //Sets the program to run in full screen mode
   background(0);
   float diameter = 20;
   float wandererX = screenWidth/2;

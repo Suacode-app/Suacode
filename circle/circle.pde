@@ -8,19 +8,20 @@ int ballY = ***;  // maxY/2 = ***
 
 int diameter = 80; //diameter of circle
 
-void setup(){
-  size(***, ***); //sets the width and height of the program
+void setup() {
+  fullScreen(); //Sets the program to run in full screen mode
+  
 }
 
-void draw(){
+void draw() {
   background(0);
 
   circle(ballX, ballY, diameter);  //call circle function
 }
 
 //Draws circle
-void circle(int x,int y, int diameter){
-  fill(0,255,0);
+void circle(int x, int y, int diameter) {
+  fill(0, 255, 0);
 
-  ellipse(x,y,diameter,diameter);
+  ellipse(x, y, diameter, diameter);
 }
