@@ -1,9 +1,9 @@
 //maxX = ***, maxY = ***
 
 
-int one_third_screenWidth = ***; // maxX/3 = ***
+int oneThirdScreenWidth = ***; // maxX/3 = ***
 
-int two_third_screenWidth = ***; // (⅔)*maxX = ***
+int twoThirdScreenWidth = ***; // (⅔)*maxX = ***
 
 int ballWidth = 80; 
 int ballHeight = 80; 
@@ -14,10 +14,10 @@ void setup() {
 }
 
 void draw() {
-  if (mouseX < one_third_screenWidth ) { 
+  if (mouseX < oneThirdScreenWidth ) { 
 
     fill(255, 0, 0); //set color to red
-  } else if  (mouseX < two_third_screenWidth ) {
+  } else if  (mouseX < twoThirdScreenWidth ) {
 
     fill(0, 255, 0); //set color to green
   } else {

@@ -1,6 +1,6 @@
 //maxX = ***, maxY = ***
 
-int half_screenWidth = ***; // maxX/2 = ***
+int halfScreenWidth = ***; // maxX/2 = ***
 
 void setup() {
   fullScreen(); //Sets the program to run in full screen mode
@@ -8,7 +8,7 @@ void setup() {
 }
 
 void draw() { 
-  if (mouseX < half_screenWidth ) {
+  if (mouseX < halfScreenWidth ) {
 
     background(255, 0, 0); //set color to red
   } else {
