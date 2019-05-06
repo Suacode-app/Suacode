@@ -63,11 +63,11 @@ void draw()
   
   strokeWeight(6);
   arrow(width/2, 100, width - 100, 100);
-  text("maxX = ", width-170, 150);  
-  text(width, width-70, 150);
+  text("maxX = ", width-width/6, 150);  
+  text(width, width-width/9, 150);
   arrow(100, height/2, 100, height - 100);
-  text("maxY = ", 100, height-70);  
-  text(height, 200, height-70);
+  text("maxY = ", 100, height-height/18);  
+  text(height, 200, height-height/18);
 
   textSize(60);
   text("Take note of maxX and maxY", width/2-400, height/2-50);
