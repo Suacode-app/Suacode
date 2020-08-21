@@ -1,4 +1,4 @@
-# Suacode - Smartphone-Based Coding Course  
+# SuaCode - Smartphone-Based Coding Course  
 
 [Course outline](https://drive.google.com/open?id=1odhEW4VrEUFmu_naQjywrJdXlLw5DucnLl1ctPliUXY)  
 [0.0 Introduction](https://drive.google.com/open?id=1aCXiozFF8if6GMYiCiKmB6drrp1KF2XRn1DGOBtdqiY)  
